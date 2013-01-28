@@ -18,5 +18,15 @@
   	"sslCert" : "./app/ssl/server.crt",
   	"sslCA" : "./app/ssl/ca.crt",
   	"passphrase" : "1234QWER"
-  }
+  },
+  "db" : {
+    "enable" : true,
+    "dbType" : "mongo",
+    "dbName" : "test",
+    "dbHost" : "127.0.0.1",
+    "dbPort" : 27017,
+    "dbUser" : "root",
+    "dbPassword" : "123789"
+  },
+  "enablePlugin" : true
 }

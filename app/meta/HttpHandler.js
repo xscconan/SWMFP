@@ -7,7 +7,6 @@ var HttpHandler = exports.HttpHandler = function(){
 HttpHandler.prototype.handleRequest = function(req, res, callbackFun){
 	this.assigedViewData.lang = lang;
 	this.onHandle();
-	console.log(this.assigedViewData);
 	callbackFun(this.assigedViewData);
 };
 
